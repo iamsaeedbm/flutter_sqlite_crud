@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sql_crud/widgets/add_task.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -16,6 +17,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        floatingActionButton: addTaskButton(),
         body: SafeArea(child: Column(children: [Text('data')])),
       ),
     );
