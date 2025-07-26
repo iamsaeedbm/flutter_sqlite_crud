@@ -8,7 +8,7 @@ Widget addTaskButton() {
           showDialog(
             context: context,
             builder: (context) => Dialog(
-              child: Padding(padding: EdgeInsets.all(20), child: Text('data')),
+              child: Padding(padding: EdgeInsets.all(20), child: Text('test')),
             ),
           );
         },
